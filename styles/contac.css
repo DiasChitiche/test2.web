@@ -1,0 +1,230 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+a{
+    color: #fff;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-right: 20px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar .nav-links a.active {
+    color: #ccc;
+    background-color: #555;
+}
+
+span{
+    color: #333;
+}
+
+.dias{
+    color: #0084ff;
+}
+
+.colorr{
+    color: #333;
+}
+
+a .icon{
+    color: #fff;
+}
+/* Main Styles */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-info,
+.report-problem {
+    width: 50%;
+}
+
+.contact-info h2,
+.report-problem h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-info ul,
+.report-problem ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contact-info li,
+.report-problem li {
+    margin-bottom: 10px;
+}
+
+.contact-info i,
+.report-problem i {
+    margin-right: 10px;
+}
+
+.report-problem form {
+    display: flex;
+    flex-direction: column;
+}
+
+.report-problem label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.report-problem input,
+.report-problem textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+.report-problem button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.report-problem button:hover {
+    background-color: #555;
+}
+
+li{
+    color: #fff;
+}
+
+.icon a{
+
+}
+
+.popo{
+    color: #fff;
+}
+/* Footer Styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration:   none;
+    colo#fff;
+}
+
+li{
+    text-emphasis-style: none;
+    color: #333;
+}
+
+.
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+    }
+
+    .report-problem form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    main h1 {
+        font-size: 24px;
+    }
+
+    main p {
+        font-size: 16px;
+    }
+
+    .contact-info,
+    .report-problem {
+        width: 100%;
+    }
+
+    .report-problem form {
+        margin-bottom: 20px;
+    }
+}
